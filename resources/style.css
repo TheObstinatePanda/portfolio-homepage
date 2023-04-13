@@ -1,11 +1,12 @@
 html {
   font-family: poppins;
   background-color: #353434;
+  display: flex;
+  justify-content: center;
  }
 
 body {
   max-width: 1080px;
-  margin: 0 auto;
   background-color: white;
  padding-top: 1rem;
 
