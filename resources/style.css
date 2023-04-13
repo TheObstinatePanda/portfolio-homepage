@@ -1,0 +1,198 @@
+html {
+  font-family: poppins;
+  background-color: #353434;
+ }
+
+body {
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: white;
+ padding-top: 1rem;
+
+}
+
+.image {
+  max-width: 100%;
+  position: relative;
+  display: block;
+}
+
+.container {
+  display: flex;
+  max-width: 75%;
+  margin: 0 auto;
+  /*border: solid red; /*uncomment for layout purposes*/
+} 
+
+ul {
+ padding-left: 0px;
+}
+
+@media only screen and (max-width: 1017px) {
+ h1 {
+  font-size: 1.75rem;
+ }
+ li {
+  font-size: .75rem;
+ }
+}
+
+@media only screen and (max-width: 820px) {
+ html {
+  background-color: white;
+ }
+ body{
+  width: 100%;
+ }
+ h1{
+  font-size: 1.4rem;
+ }
+ #banner_img{
+  width: 75%
+ }
+ #navigation {
+  margin-bottom: 5rem;
+ }
+
+ #about_me h2 {
+  margin-top: -5rem
+ }
+
+ #imgnav {
+  margin-top: 1rem;
+ }
+}
+
+@media only screen and (max-width: 700px) {
+
+
+ #banner_img{
+  margin-top: 5rem;
+ }
+ h1{
+  font-size: 1.25rem;
+ }
+ #info_links{
+  margin-bottom: 3rem;
+ }
+ #profile_pic {
+  display: none;
+ }
+}
+
+/* header/nav */ 
+
+#header{
+ display: flex;
+ justify-content: space-around;
+ max-height: 250px;
+}
+
+#banner_img {
+ max-width: 18rem;
+ }
+#info_links{
+ /*border: solid;*/
+ max-width: rem;
+}
+
+#info_links h1 {
+ margin-bottom: 0rem;
+}
+
+/*navigation*/
+#navigation{
+ display: flex;
+ margin-bottom: -5rem;
+ 
+}
+
+#navigation ul {
+ padding-left: 1.5rem;
+ 
+}
+
+#navigation li {
+ display: inline;
+}
+
+#navigation a {
+ color: black;
+ text-decoration: none;
+}
+
+#navigation a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+/*top info*/
+
+#about_me {
+ /*border: solid;*/
+ margin-bottom: -5rem;
+}
+#about_me h2 {
+ margin-top: 1rem
+}
+
+#profile_pic {
+ border-radius: 25%;
+ padding-left: 1rem;
+}
+
+/* IMG Nav */
+
+#imgnav {
+  margin-top: 6rem;
+    display:flex;
+    max-width: 100%;
+    justify-self: center;
+  /*border: solid /*uncomment for layout*/
+}
+
+#imgnav img{
+    display: block;
+    max-width: 100%;
+    background-color: #9a9494;
+}
+
+#image a{
+    text-decoration:none;
+    visibility: hidden;
+}
+
+#image a:hover {
+    visibility: visible;
+}
+
+#image-containter {
+ display: flex;
+ flex-direction: column
+}
+
+#me img {
+  display: flex;
+  max-width: 93.5%;
+  margin-bottom: .5rem;
+  border-radius: 15%;
+}
+
+.info {
+  max-width: 45%;
+ padding-top: 3.5rem;
+}
+
+#cats{
+  display: flex;
+  
+}
+
+#cats img{
+  max-width: 87.4%;
+  border-radius: 15%;
+}
+
+footer {
+height: 10rem;
+}
